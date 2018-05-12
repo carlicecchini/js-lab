@@ -1,0 +1,47 @@
+.start, p, h2, .userBar, .grantBar{
+  text-align: center;
+}
+
+.playOption{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+.box{
+  border-style: solid;
+  margin: auto;
+  width: 900px;
+}
+
+.playerInfo{
+  padding-left: 75px;
+
+}
+
+.computerInfo{
+  padding-left: 250px;
+}
+
+button {
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  background-color: teal;
+  color: white;
+  height: 20px;
+  width: 65px;
+}
+
+body{
+  background-color: lightblue;
+}
+
+.healCount{
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.commputer{
+  padding-bottom: 25px;
+}
