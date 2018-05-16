@@ -1,25 +1,24 @@
-.start, p, h2, .userBar, .grantBar{
+.start, p, h2, .userBar, .grantBar {
   text-align: center;
 }
 
-.playOption{
+.playOption {
   display: flex;
   justify-content: space-around;
   padding-bottom: 10px;
 }
 
-.box{
+.box {
   border-style: solid;
   margin: auto;
   width: 900px;
 }
 
-.playerInfo{
+.playerInfo {
   padding-left: 75px;
-
 }
 
-.computerInfo{
+.computerInfo {
   padding-left: 250px;
 }
 
@@ -33,15 +32,15 @@ button {
   width: 65px;
 }
 
-body{
+body {
   background-color: lightblue;
 }
 
-.healCount{
+.healCount {
   padding-left: 75px;
   padding-right: 75px;
 }
 
-.commputer{
+.commputer {
   padding-bottom: 25px;
 }

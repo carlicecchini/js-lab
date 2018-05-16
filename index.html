@@ -12,11 +12,11 @@
   <div id='game-wrapper' style='display: none'>
     <div class='playOption'>
       <button id='attackButton' class='attack'> ATTACK </button>
-      <button id 'healButton' class='heal'> HEAL </button>
-      <button id 'quitButton' class='quit'> QUIT </button>
+      <button id='healButton' class='heal'> HEAL </button>
+      <button id='quitButton' class='quit'> QUIT </button>
     </div>
     <div class='healthRemaining'>
-      <p> text about how many lives </p>
+      <p id='textArea'></p>
     </div>
     <div class='box'>
       <div class='playerStats'>
@@ -33,8 +33,8 @@
       </div>
       <div class='userBar'>
         <progress class='playerHealth' value="40" max="40"></progress>
-        <progress class='playerHealCount' value="22" max="100"></progress>
-        <progress class='playerWins' value="22" max="100"></progress>
+        <progress class='playerHealCount' value="2" max="2"></progress>
+        <progress class='playerWins' value="0" max="5"></progress>
       </div>
       <div>
         <h2> Enemy Stats </h2>
